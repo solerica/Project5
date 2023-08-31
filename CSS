@@ -1,0 +1,64 @@
+*{
+  margin: 5px;
+  box-sizing: border-box; 
+  }
+
+body{
+  height:95vh;
+  column-width: 70%;
+  background: maroon;
+  font-family: sans-serif;
+  text-align: center;
+  color:black;
+  font-size:15px;
+  display: flex;
+  flex direction:column;
+  }
+
+  header{
+    background:#FFD9C0;
+    padding: 2em 0 2em 0;
+    border-style: double;
+  }
+
+@keyframes Page{
+  from {background-color: lightcoral;}
+  to {background-color: mediumvioletred;}
+}
+div {
+  animation-name:Page;
+  animation-duration: 5s;
+}
+
+.main{
+  display: flex;
+  flex: 1;
+}
+
+.left{
+  background:#D7C0AE;
+  padding: 3em 0 3em;
+  flex: 5 5 100px;
+  border-style: double;
+   ;
+}
+
+main{
+  background:#D7C0AE;
+  padding: 3em 0 3em;
+  flex: 5 5 150px;
+  border-style: double;
+  }
+
+ .right{
+  background:#D7C0AE;
+  padding: 3em 0 3em;
+  flex:5 5 100px;
+  border-style: double;
+  }
+
+footer{
+  background:#FFD9C0;
+  padding: 1em 0 1em;
+  border-style: double;
+}
